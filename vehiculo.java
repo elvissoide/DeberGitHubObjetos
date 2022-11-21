@@ -4,7 +4,7 @@ public class vehiculo {
     String modelo;
     String tipoMotor;
     double litrosMotor;
-    double rendimientMotor;
+    double rendimientoMotor;
 
     public vehiculo(){
         color = "";
@@ -12,7 +12,7 @@ public class vehiculo {
         modelo = "";
         tipoMotor = "";
         litrosMotor = 0;
-        rendimientMotor = 0;
+        rendimientoMotor = 0;
     }
 
     public String getColor() {
@@ -55,11 +55,11 @@ public class vehiculo {
         this.litrosMotor = litrosMotor;
     }
 
-    public double getRendimientMotor() {
-        return rendimientMotor;
+    public double getRendimientoMotor() {
+        return rendimientoMotor;
     }
 
-    public void setRendimientMotor(double rendimientMotor) {
-        this.rendimientMotor = rendimientMotor;
+    public void setRendimientoMotor(double rendimientMotor) {
+        this.rendimientoMotor = rendimientMotor;
     }
 }
